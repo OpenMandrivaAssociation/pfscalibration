@@ -10,6 +10,7 @@ License: GPL
 Group: Graphics
 Source: http://heanet.dl.sourceforge.net/sourceforge/pfstools/%{name}-%{version}.tar.bz2
 URL: http://www.mpi-inf.mpg.de/resources/hdr/calibration/
+BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: pfstools-devel autoconf
 Requires: jhead
 
