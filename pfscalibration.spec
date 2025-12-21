@@ -11,6 +11,10 @@ Group: Graphics
 Source: http://heanet.dl.sourceforge.net/sourceforge/pfstools/%{name}-%{version}.tar.bz2
 URL: https://www.mpi-inf.mpg.de/resources/hdr/calibration/
 BuildRoot: %{_tmppath}/%{name}-root
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pfstools-devel autoconf
 Requires: jhead
 
