@@ -1,6 +1,6 @@
 %define name     pfscalibration
 %define version  1.3
-%define release %mkrel 5
+%define release 6
 
 Summary: Photometric Calibration of HDR and LDR Cameras
 Name:           %{name}
